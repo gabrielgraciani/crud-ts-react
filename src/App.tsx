@@ -1,10 +1,14 @@
-import React from 'react';
+import './styles/global.scss';
+
+import Header from './components/Header';
+import Users from './components/Users';
 
 function App() {
   return (
-    <div className="App">
-      hello
-    </div>
+    <>
+      <Header />
+      <Users />
+    </>
   );
 }
 
