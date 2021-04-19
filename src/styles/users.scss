@@ -29,7 +29,11 @@
         border: 0;
   
         & + input {
-          margin-left:15px;
+          margin-left: 15px;
+        }
+
+        &[type='submit'] {
+          cursor: pointer;
         }
       }
     }
@@ -41,7 +45,7 @@
     td, th {
       border: 1px solid #c0c0c0;
       padding: 8px;
-      text-align:left;
+      text-align: left;
     }
 
     tr:nth-child(even){background-color: #f2f2f2;}
